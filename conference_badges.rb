@@ -26,3 +26,4 @@ def printer(results)
   puts badge
 end
 end
+end
