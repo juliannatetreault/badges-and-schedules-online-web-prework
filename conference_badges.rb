@@ -19,7 +19,8 @@ end
 return room_assignments
 end
 
-def printer(results).each do ||
-  
-  assign_rooms(results).each do ||
+def printer(results).each do |badge|
+  puts badge
+  assign_rooms(results).each do |badge|
+  puts badge
 end
