@@ -10,7 +10,7 @@ badge_maker("Arel")
 def batch_badge_creator(array)
   badges = []
   array.each do |names|
-    name_array.push("Hello, my name is #{names}.")
+    badges.push("Hello, my name is #{names}.")
 end
 return badges
 end
