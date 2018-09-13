@@ -11,8 +11,8 @@ end
 return badges
 end
 
-def assign_rooms(array)
-  room = 1
+#def assign_rooms(array)
+  #room = 1
   room_assignments = array.each do |name| 
     "Hello, #{name}! You'll be assigned to room #{room}!"
   room += 1
