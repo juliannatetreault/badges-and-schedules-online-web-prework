@@ -11,25 +11,25 @@ end
 return badges
 end
 
-def assign_rooms(array)
-  nuarray = []
-  counter = 1
-  array.each do |name|
-    nuarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
-    counter += 1
-  end
-  return nuarray
-end
-
 #def assign_rooms(array)
-  #room_assignments = []
-  #room = 1
-  #array.each do |name| 
-    #room_assignments.push("Hello, #{name}! You'll be assigned to room #{room}!")
-  #room += 1
+  #nuarray = []
+  #counter = 1
+  #array.each do |name|
+    #nuarray.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    #counter += 1
+  #end
+  #return nuarray
 #end
-#return room_assignments
-#end
+
+def assign_rooms(array)
+  room_assignments = []
+  room = 1
+  array.each do |name| 
+    room_assignments.push("Hello, #{name}! You'll be assigned to room #{room}!")
+    room += 1
+end
+return room_assignments
+end
 
 def printer()
   
