@@ -8,11 +8,11 @@ end
 badge_maker("Arel")
 
 def batch_badge_creator(array)
-  name_array = []
+  badges = []
   array.each do |names|
     name_array.push("Hello, my name is #{names}.")
 end
-return name_array
+return badges
 end
 
 def assign_rooms(array)
