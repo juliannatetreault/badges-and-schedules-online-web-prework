@@ -19,16 +19,6 @@ end
 return room_assignments
 end
 
-#def assign_rooms(array)
-  #room_assignments = []
-  #room = 1
-  #array.each do |name| 
-    #room_assignments.push("Hello, #{name}! You'll be assigned to room #{room}!")
-    #room += 1
-#end
-#return room_assignments
-#end
-
 def printer()
   
 end
